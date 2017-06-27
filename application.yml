@@ -1,4 +1,4 @@
 ---
-programs: [ {"id" : 1, "name" : "PMP"}, { "id": 2, "name" : "CAPM"}]
+programs: [ {"id" : 1, "code" : "PMP"}, { "id": 2, "code" : "CAPM"}]
 
 ping: "Ping is ok"
