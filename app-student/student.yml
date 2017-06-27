@@ -9,3 +9,13 @@ spring:
   # Using Docker Instance
   datasource:
     url: jdbc:mysql://192.168.99.100:32768/flow-simulator?useSSL=false
+
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  datasource:
+    username: root
+    password: root
+    driver-class-entityName: com.mysql.jdbc.Driver
+
