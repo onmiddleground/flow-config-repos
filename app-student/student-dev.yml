@@ -1,0 +1,24 @@
+---
+dev: yes
+server:
+  context-path: /api/
+
+spring:
+    jpa:
+        show-sql: false
+
+
+
+security:
+    user:
+        entityName: user
+        password: password
+
+max:
+    page:
+        size:
+            limit: 100
+
+page:
+    start:
+        default: 0
