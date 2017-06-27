@@ -16,4 +16,12 @@ spring:
     password: root
 
 
+max:
+  page:
+    size:
+      limit: 100
+page:
+  start:
+    default: 0
+
 
