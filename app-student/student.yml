@@ -17,5 +17,4 @@ spring:
   datasource:
     username: root
     password: root
-    driver-class-entityName: com.mysql.jdbc.Driver
 
